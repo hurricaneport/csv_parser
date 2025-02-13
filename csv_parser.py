@@ -10,6 +10,9 @@ def main():
     except FileNotFoundError:
         print(f'File \'{args.csv_file}\' does not exist.', file=sys.stderr)
         return
+    except ValueError:
+        print(f'column could not be found')
+        return
     
     print(csv_file.to_csv(index=False))
     
