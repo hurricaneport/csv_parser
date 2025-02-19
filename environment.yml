@@ -1,8 +1,7 @@
 name: csv_parser
 channels:
   - defaults
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
+  - https://conda.anaconda.org/conda-forge
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
@@ -45,4 +44,4 @@ dependencies:
   - wheel=0.44.0=py313h06a4308_0
   - xz=5.4.6=h5eee18b_1
   - zlib=1.2.13=h5eee18b_1
-prefix: /home/porter02/bin/miniconda3/envs/csv_parser
+prefix: /home/porter02/.conda/envs/csv_parser
